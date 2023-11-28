@@ -5,7 +5,7 @@ import CurrencyLiquidation from "@/components/mainPage/currency/CurrencyLiquidat
 import FearGreedIndex from "@/components/mainPage/greedindex/FearGreedIndex";
 import KpremiumStockQuotesRealTime from "@/components/mainPage/premium/KpremiumStockQuotesRealTime";
 import StockfuturesSpot from "@/components/mainPage/stock/StockfuturesSpot ";
-import Announcement from "@/components/mainPage/table/Announcement";
+import NoticeTable from "@/components/mainPage/table/NoticeTable";
 import Liquidation from "@/components/mainPage/table/Liquidation";
 
 export default function Home() {
@@ -51,7 +51,7 @@ export default function Home() {
           </div>
           {/* 공지사항 */}
           <div className="xl:col-span-6">
-            <Announcement />
+            <NoticeTable />
           </div>
           <div className="xl:col-span-6">
             {/* 거래서 청산 */}
